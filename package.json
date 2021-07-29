@@ -2,7 +2,7 @@
   "name": "sudoku",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tykhon2006.github.io/sudoku",
+  "homepage": "https://tykhon2006.github.io/sudoku-game/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
