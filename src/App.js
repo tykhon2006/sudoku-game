@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { Route } from 'react-router';
+import './App.scss';
+import { Menu } from './components/main/Menu';
+import EasyContainer from './components/main/EasyContainer';
+import Win from './components/main/Win';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Route path={["/", "/menu"]} exact render={() => <Menu />} />
+        <Route path="/easy" render={()=> <EasyContainer />} />
+        <Route path="/win" render={()=> <Win />} />
     </div>
   );
 }
