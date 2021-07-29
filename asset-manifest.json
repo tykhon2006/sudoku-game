@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sudoku-game/static/css/main.bee5f2e2.chunk.css",
+    "main.js": "/sudoku-game/static/js/main.636082a1.chunk.js",
+    "main.js.map": "/sudoku-game/static/js/main.636082a1.chunk.js.map",
+    "runtime-main.js": "/sudoku-game/static/js/runtime-main.bfa8410e.js",
+    "runtime-main.js.map": "/sudoku-game/static/js/runtime-main.bfa8410e.js.map",
+    "static/js/2.8e1bd808.chunk.js": "/sudoku-game/static/js/2.8e1bd808.chunk.js",
+    "static/js/2.8e1bd808.chunk.js.map": "/sudoku-game/static/js/2.8e1bd808.chunk.js.map",
+    "static/js/3.27c5754e.chunk.js": "/sudoku-game/static/js/3.27c5754e.chunk.js",
+    "static/js/3.27c5754e.chunk.js.map": "/sudoku-game/static/js/3.27c5754e.chunk.js.map",
+    "index.html": "/sudoku-game/index.html",
+    "static/css/main.bee5f2e2.chunk.css.map": "/sudoku-game/static/css/main.bee5f2e2.chunk.css.map",
+    "static/js/2.8e1bd808.chunk.js.LICENSE.txt": "/sudoku-game/static/js/2.8e1bd808.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/sudoku-game/static/media/neucha-v12-latin_cyrillic-regular.da5dccad.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfa8410e.js",
+    "static/js/2.8e1bd808.chunk.js",
+    "static/css/main.bee5f2e2.chunk.css",
+    "static/js/main.636082a1.chunk.js"
+  ]
+}
