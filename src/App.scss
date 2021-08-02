@@ -40,16 +40,25 @@ body {
   min-height: 100vh;
   font-size: $bigText;
 }
-.easy{
+.easy {
   @include container();
 }
-.table{
+.table {
   width: 100%;
   border-collapse: collapse;
-}
-.wrap{
-  @include wrap();
+  tr {
+    td:nth-of-type(3) {
+      border-right: 2px solid black;
+    }
+  }
+  tr:nth-of-type(even){
+    border-bottom: 2px solid black;
+  }
+
   
+}
+.wrap {
+  @include wrap();
 }
 td {
   border: 1px solid black;
@@ -68,21 +77,20 @@ li {
     color: $colorMainMenuLink;
   }
 }
-.ceil{
+.ceil {
   background-color: $bgWrap;
   width: 100%;
   height: 100%;
 }
-.check{
+.check {
   display: none;
-  
 }
-.check:checked + .ceil{
+.check:checked + .ceil {
   background-color: $activeCeil;
 }
-.variants{
- align-items: space-between;
+.variants {
+  align-items: space-between;
 }
-.error{
+.error {
   color: red;
 }

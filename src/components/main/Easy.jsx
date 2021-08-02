@@ -12,10 +12,18 @@ const Easy = (props) => {
     props.startGame();
     props.history.push("/win");
   }
+  const isOver = () => {
+    if (props.errors >= 3) {
+      props.startGame();
+      props.history.push("/gameOver");
+    }
+  }
 
   useEffect(() => {
+    isOver();
     isWin();
-  }, [props.matrix]);
+    window.onpopstate = props.startGame;
+  }, [props.matrix, props.errors]);
   const [indexArr, newIndexArr] = useState([0, 0]);
   const setActiveInput = (a, b) => {
     newIndexArr([a, b])
@@ -46,4 +54,4 @@ const Easy = (props) => {
     </div>
   )
 }
-export default withRouter (Easy);
+export default withRouter(Easy);
