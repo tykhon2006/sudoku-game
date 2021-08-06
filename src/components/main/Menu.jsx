@@ -8,10 +8,10 @@ export const Menu = ()=>{
                     <NavLink className="mainMenu__link" to="/easy">Easy</NavLink>
                 </li>
                 <li>
-                    <NavLink className="mainMenu__link" to="/middle">Medium</NavLink>
+                    <NavLink className="mainMenu__link" to="/medium">Medium</NavLink>
                 </li>
                 <li>
-                    <NavLink className="mainMenu__link" to="/pro">Hard</NavLink>
+                    <NavLink className="mainMenu__link" to="/hard">Hard</NavLink>
                 </li>
             </ul>
             
